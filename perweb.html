@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal Website - Narmatha</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, footer {
+            text-align: center;
+        }
+        img {
+            border-radius: 50%;
+            display: block;
+            margin: 10px auto;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+            color: #0066cc;
+        }
+        table {
+            width: 80%;
+            margin: auto;
+        }
+        form {
+            width: 300px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <img src="images/profile.jpg" alt="My Photo" width="150">
+        <hr>
+        <nav>
+            <a href="#bio">Bio</a> |
+            <a href="#education">Education</a> |
+            <a href="#hobbies">Hobbies</a> |
+            <a href="#contact">Contact</a>
+        </nav>
+        <hr>
+    </header>
+
+    <section id="bio">
+        <h2>About Me</h2>
+        <p>Hello! My name is <strong>Narmatha</strong>. I'm passionate about web development &amp; design. I enjoy coding, learning new tech, and solving problems. 😊</p>
+    </section>
+
+    <section id="education">
+        <h2>Academic Background</h2>
+        <table border="1">
+            <tr>
+                <th>Degree</th>
+                <th>Institution</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>MCA</td>
+                <td>Bharathiyar University</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>HSC</td>
+                <td>Sangeedha School</td>
+                <td>2020</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li>Coding</li>
+            <li>Reading Books</li>
+            <li>Playing Chess</li>
+            <li>Photography</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your-email@example.com" method="post">
+            <label>Name:</label><br>
+            <input type="text" name="name" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Message:</label><br>
+            <textarea name="message" rows="5" required></textarea><br><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Narmatha</p>
+    </footer>
+</body>
+</html>
